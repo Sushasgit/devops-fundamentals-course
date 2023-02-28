@@ -14,8 +14,8 @@ do
 
 	if [ "$FREE_SPACE" -lt "$THRESHOLD" ] 
 	then
-  	echo "The free space for the root file system is below the threshold of $THRESHOLD% and is now at $FREE_SPACE%."
+  	echo "TestThe free space for the root file system is below the threshold of $THRESHOLD% and is now at $FREE_SPACE%."
   fi
   sleep 5s
   
-done
+done 
